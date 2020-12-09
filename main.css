@@ -1,0 +1,54 @@
+.time_unit {
+  display: inline-block;
+  width:150px;
+}
+.glow:hover {
+  text-shadow:
+    0 0 5px #FF2D95,
+    0 0 10px #FF2D95,
+    0 0 20px #FF2D95,
+    0 0 40px #FF2D95,
+    0 0 80px #FF2D95;
+
+}
+.title {
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 35%;
+  font-size: 5em;
+  width: 100%;
+
+}
+.container {
+  position: fixed;
+  width: 100%;
+  bottom:15%;
+
+  text-align: center;
+  color:white;
+}
+.time_unit h2 {
+  font-size: 3em;
+  margin: 0;
+
+}
+.time_unit h3 {
+  font-size: 1.3em;
+}
+body {
+  background-image: linear-gradient(0deg, black, transparent),url("bg3.jpg") ;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: fixed;
+  /* height:100%; */
+  width: 100%;
+  background-size: cover;
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP',sans-serif;
+}
+html {
+  height: 100%
+}
